@@ -1,0 +1,46 @@
+@media (min-width: 1280px) {
+    :root {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1720px) {
+    :root {
+        font-size: 30px;
+    }
+}
+
+body {
+    background-color: #6495ed;
+}
+
+h1 {
+    font-size: 1rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.down {
+    margin-top: 18%;
+}
+
+.inp {
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    width: 4rem;
+}
+
+.btn-primary {
+    border: none;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    padding: 4px 6px;
+    transition: 1s ease-in-out;
+}
+
+.btn-primary:hover {
+    border-radius: 0.1rem;
+}
